@@ -5,7 +5,7 @@ const port = 3000;
 //rota padrao para iniciar 
 
 app.get('/', (req,res)=>{
-res.send('HelloWorld!' )
+res.send('HelloWorld! Você está bem?' )
 })
 
 //escutar a porta
